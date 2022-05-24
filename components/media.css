@@ -1,0 +1,50 @@
+@media screen and (max-width: 760px){
+
+  header{
+      flex-direction: column;
+  }
+
+  #title {
+      text-align: center;
+  }
+
+  main{
+      flex-direction: column;
+  }
+
+  h2{
+      font-size: 38px;
+  }
+
+  form{
+      margin: 0 auto;
+      width: 100%;
+  }
+
+  input{
+      align-self: center;
+  }
+
+  img{
+      display: none;
+  }
+  #menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  main > aside > h2:nth-child(1) {
+      color: rgb(132, 14, 201);
+      text-align: center;
+  }
+
+  main > aside > h2:nth-child(2) {    
+    text-align: center;
+  }
+
+  aside p {
+      text-align: justify;
+  }
+ 
+}
